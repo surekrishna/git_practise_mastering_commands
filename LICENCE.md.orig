@@ -1,0 +1,7 @@
+This is licence file in git 
+<<<<<<< HEAD
+new and very-bad messed
+=======
+new
+very-bad
+>>>>>>> very-bad
