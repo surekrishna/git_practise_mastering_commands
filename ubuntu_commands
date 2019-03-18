@@ -1,0 +1,34 @@
+ubuntu commands
+===============
+sure@sure: touch fileName(krish.txt) -> to create file in working directory.
+sure@sure: gedit fileName(krish.txt) -> to open a file.
+sure@sure: git status -> to check the status of the files.
+sure@sure: git add README.md -> to add README.md file to into git staging.
+sure@sure: git commit -m "first commit" -> to push the added staging file into git repository.
+sure@sure: rm -rf fileName(krish.txt) -> to remove forcefully a file.
+sure@sure: git log -> shows the previous commited files history.
+sure@sure: git ls-files -> shows the git tracked files.
+sure@sure: git commit -a -> this command is used for add modified file to staging and then commit to repositroy.
+sure@sure: git commit-am "this command is used to add the modified file and commit to reopository with message".
+sure@sure: git reset HEAD LICENCE.md -> this command is used to unstage file from staging area.
+sure@sure: git checkout -- LICENCE.md -> this command is used to revert back the content of the file to latest one.
+sure@sure: git mv example.txt demo.txt -> renaming the file name from example.txt to demo.txt
+sure@sure: git add -u -> to update a file.
+------------------------------------------
+sure@sure: git status
+sure@sure: touch application.log
+sure@sure: touch .gitignore
+sure@sure: content of .gitignore application.log (application.log file will be ignored by git)
+sure@sure: git status
+------------------------------------------
+sure@sure: git difftool LICENCE.md -> to check the difference from master to local file using installed difftool in my case meld.
+sure@sure: git checkout master -> to switch between the branches.
+sure@sure: git checkout demo -> to switch between the branches.
+sure@sure: git branch -> show the current branch
+sure@sure: git checkout -b very-bad -> to create a new branch
+sure@sure: git merge very-bad -> to merge very-bad branch into master.
+sure@sure: git mergetool -> opens mergetool to and shows three different files to merge select from which side needs to be added
+sure@sure: git tag mytag -> to create a tag
+sure@sure: git tag --list -> to see the tag list
+sure@sure: git tag -d mytag -> to delete the tag
+sure@sure: git push -u origin master --tags -> inorder to sync with local repository and remote repository
